@@ -3,113 +3,104 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Lauren Wittman | Premier Sotheby’s International Realty</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gill+Sans&display=swap"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gill+Sans&display=swap" />
   <style>
-    body {
-      margin: 0;
-      font-family: 'Gill Sans', sans-serif;
-      background-color: #ffffff;
-      color: #333;
-    }
-    header {
-      background-color: #002c71;
-      color: white;
-      text-align: center;
-      padding: 2rem 1rem;
-    }
-    .logo {
-      max-width: 200px;
-      margin: 0 auto 1rem;
-      display: block;
-    }
-    .profile-pic {
-      border-radius: 50%;
-      width: 160px;
-      height: 160px;
-      object-fit: cover;
-      margin-top: -80px;
-      border: 4px solid white;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-    }
-    main {
-      padding: 2rem 1rem;
-      max-width: 800px;
-      margin: auto;
-    }
-    section {
-      margin-bottom: 3rem;
-    }
-    h1, h2 {
-      color: #002c71;
-    }
-    .btn {
-      background-color: #002c71;
-      color: white;
-      padding: 0.75rem 1.5rem;
-      border-radius: 5px;
-      text-decoration: none;
-      display: inline-block;
-      margin-top: 1rem;
-    }
-    .socials a {
-      margin-right: 1rem;
-      color: #002c71;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    footer {
-      background-color: #f8f8f8;
-      padding: 2rem 1rem;
-      font-size: 0.8rem;
-      text-align: center;
-      border-top: 1px solid #ccc;
-    }
-    img.magnolia {
-      max-width: 100%;
-      height: auto;
-      border-radius: 12px;
-      margin-top: 1rem;
-    }
+    body { margin: 0; font-family: 'Gill Sans', sans-serif; color: #333; background: #fff; }
+    header { background: #002c71; color: white; text-align: center; padding: 2rem 1rem; }
+    .logo { width: 180px; margin-bottom: 1rem; }
+    .hero-img { width: 140px; border-radius: 50%; border: 4px solid white; margin-top: -70px; box-shadow: 0 4px 10px rgba(0,0,0,0.2); }
+    main { max-width: 960px; margin: auto; padding: 2rem 1rem; }
+    section { margin-bottom: 3rem; }
+    h1, h2 { color: #002c71; }
+    .btn { background: #002c71; color: white; padding: 0.75rem 1.25rem; text-decoration: none; border-radius: 5px; display: inline-block; margin-top: 1rem; }
+    .socials a { margin-right: 1rem; text-decoration: none; color: #002c71; font-weight: bold; }
+    .listing-card, .testimonial { border: 1px solid #ddd; padding: 1rem; border-radius: 8px; margin-bottom: 1rem; }
+    .neighborhoods ul { list-style: none; padding: 0; }
+    .neighborhoods li { margin-bottom: 0.5rem; }
+    footer { background: #f8f8f8; padding: 2rem; font-size: 0.9rem; text-align: center; border-top: 1px solid #ccc; }
+    .magnolia { border-radius: 12px; max-width: 100%; margin-top: 1rem; }
   </style>
 </head>
 <body>
   <header>
-    <img class="logo" src="https://premiersothebysrealty.com/images/logo.png" alt="Premier Sotheby’s International Realty Logo" />
+    <img class="logo" src="https://premiersothebysrealty.com/images/logo.png" alt="Sotheby’s Logo" />
     <h1>Lauren Wittman</h1>
     <p>Global Real Estate Advisor | Premier Sotheby’s International Realty</p>
   </header>
 
   <main>
-    <img class="profile-pic" src="https://mypropertyshowcase.com/images/lauren-wittman-profile.jpg" alt="Lauren Wittman Profile"/>
+    <div style="text-align:center;">
+      <img class="hero-img" src="https://mypropertyshowcase.com/images/lauren-wittman-profile.jpg" alt="Lauren Wittman" />
+    </div>
 
     <section>
       <h2>About Lauren</h2>
       <p>Lauren Wittman is a global real estate advisor with Premier Sotheby’s International Realty, serving the beautiful Naples area. Originally from the North Chicago suburbs, she brings a blend of Midwest warmth and coastal cool to everything she does.</p>
-      <p>Lauren graduated from Drake University in Iowa with degrees in environmental science, writing, and psychology—a unique mix that helps her think creatively, understand people on a deeper level, and communicate clearly, both in and out of the real estate world. Florida isn’t just where she lives—it’s what inspires her.</p>
-      <p>Clients love Lauren for her honest, down-to-earth approach and her ability to make the whole buying or selling process feel seamless (and even fun). Known for fostering win-win outcomes, Lauren believes that luxury real estate is not solely about exceptional properties but about curating exceptional experiences. She redefines luxury with authenticity, dedication, and an innate understanding of lifestyle needs.</p>
-      <p>Community involvement is key for Lauren, from supporting local causes to hosting pet-friendly events. Her dog Magnolia, featured over a dozen times on Chewy’s website, reflects her patient and polished style. When not working, you’ll find her paddle boarding, doing yoga, or grabbing a latte at a Naples coffee shop.</p>
+      <p>With a background in environmental science, writing, and psychology, Lauren connects deeply with clients and communicates clearly. She redefines luxury real estate through authenticity, empathy, and lifestyle alignment.</p>
+    </section>
+
+    <section class="neighborhoods">
+      <h2>Neighborhoods Served</h2>
+      <ul>
+        <li>Lely Resort</li>
+        <li>Queens Park</li>
+        <li>Old Naples</li>
+        <li>Coquina Sands</li>
+        <li>Park Shore</li>
+        <li>Pelican Bay</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Active Listings</h2>
+      <div class="listing-card">
+        <strong>1234 Seaside Dr, Naples, FL</strong><br />
+        $895,000 · 3 Bed · 2 Bath · Gulf Access
+      </div>
+      <div class="listing-card">
+        <strong>5678 Coastal Ln, Naples, FL</strong><br />
+        $1,250,000 · 4 Bed · 3 Bath · Pool Home
+      </div>
+    </section>
+
+    <section>
+      <h2>Sold Listings</h2>
+      <div class="listing-card">
+        <strong>4321 Sunset Blvd, Naples, FL</strong><br />
+        SOLD · $990,000
+      </div>
+    </section>
+
+    <section>
+      <h2>Client Testimonials</h2>
+      <div class="testimonial">
+        "Lauren made the buying process seamless and even fun. We love our new home!" – M. Johnson
+      </div>
+      <div class="testimonial">
+        "Truly a professional. Her knowledge of Naples neighborhoods is unmatched." – A. Russo
+      </div>
     </section>
 
     <section>
       <h2>Meet Magnolia</h2>
-      <p>Magnolia isn’t just Lauren’s sidekick—she’s a Naples celebrity in her own right! With over a dozen features on Chewy’s website, this furry friend is a reminder of Lauren’s calm, attentive, and charismatic energy.</p>
+      <p>Magnolia isn’t just Lauren’s sidekick—she’s a Naples celebrity in her own right! With over a dozen features on Chewy’s website, this furry friend brings charm and calm to every showing.</p>
       <img class="magnolia" src="https://via.placeholder.com/600x400?text=Magnolia" alt="Magnolia the dog" />
     </section>
 
     <section>
       <h2>Let’s Connect</h2>
-      <p>Email: <a href="mailto:lauren.wittman@premiersir.com">lauren.wittman@premiersir.com</a><br>
-      Phone: 847.714.3014<br>
-      License #: 3579983</p>
+      <p>Email: <a href="mailto:lauren.wittman@premiersir.com">lauren.wittman@premiersir.com</a><br />
+         Phone: 847.714.3014<br />
+         License #: 3579983</p>
       <div class="socials">
         <a href="https://instagram.com/realrealtywithlauren">Instagram</a>
         <a href="https://www.facebook.com/lauren.wittman.52/">Facebook</a>
         <a href="https://www.linkedin.com/in/lauren-wittman-735743139/">LinkedIn</a>
         <a href="https://www.tiktok.com/@realrealtywithlauren">TikTok</a>
       </div>
-      <a class="btn" href="https://laurenwittman.premiersothebysrealty.com">Home Evaluation / Buyer Resources</a>
+      <a class="btn" href="https://laurenwittman.premiersothebysrealty.com">Get Home Evaluation</a>
     </section>
   </main>
 
